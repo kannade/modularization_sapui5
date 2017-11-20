@@ -17,7 +17,7 @@ sap.ui.define([
         },
         
         onPressBtn: function () {
-					MessageManager.reportSuccess("что-то по немецки с маленькой буквы.", "заголовок");	
+					MessageManager.reportSuccess("привет центр sap!", "приветствие");
 				}
         
 	});
