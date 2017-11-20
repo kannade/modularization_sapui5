@@ -5,7 +5,7 @@ sap.ui.define([
 ], function(Controller, Device, MessageManager) {
 	"use strict";
 
-	return Controller.extend("sap.hello.main", {
+	return Controller.extend("sap.hello.controller.main", {
 		onInit: function() {
 			this.getView().addStyleClass(
 				Device.support.touch ? "sapUiSizeCozy" : "sapUiSizeCompact");
