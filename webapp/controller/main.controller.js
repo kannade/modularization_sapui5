@@ -17,7 +17,7 @@ sap.ui.define([
         },
         
         onPressBtn: function () {
-					MessageManager.reportSuccess("привет центр sap!", "приветствие");
+					MessageManager.reportSuccess("привет sap!", "приветствие");
 				},
 				
 		 onPressBtn_2: function () {
